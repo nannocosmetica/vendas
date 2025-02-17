@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body{
+  font-family: "Montserrat", sans-serif;
+
+  @apply bg-white
+}
+
+.glass{
+  @apply bg-white/10 backdrop-blur-[10px] text-white flex items-center justify-center border border-neutral-400
+}
