@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html{
+  @apply scroll-smooth;
+}
+
 body{
   font-family: "Montserrat", sans-serif;
 
@@ -8,4 +12,16 @@ body{
 
 .glass{
   @apply bg-white/10 backdrop-blur-[10px] text-white flex items-center justify-center border border-neutral-400
+}
+
+h2, h3{
+  @apply font-bold tracking-wider uppercase;
+}
+
+h2{
+  @apply text-3xl;
+}
+
+h3{
+  @apply text-xl;
 }
