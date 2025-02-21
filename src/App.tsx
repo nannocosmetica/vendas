@@ -10,13 +10,13 @@ import { TestimonialsSection } from "./components/TestimonialsSection";
 import { AboutSection } from "./components/AboutSection";
 import { RegisterSection } from "./components/RegisterSection";
 import { FaRegThumbsUp } from "react-icons/fa";
+import { FaqSection } from "./components/Faq";
 
 function App() {
   return (
     <>
       <SocialNetwork />
       <div className="flex flex-col w-auto min-h-screen" id="top">
-
         <div className="flex flex-col w-full">
           <div className="flex flex-col flex-1">
             <Header />
@@ -27,17 +27,18 @@ function App() {
               <Bubble icon={<IoTrendingUp size={42} />} text="O Mercado de cosméticos capilares profissionais cresce a cada dia!" title="Mercado em Crescimento" />
               <Bubble icon={<FaRegThumbsUp size={36} />} text="Temos benefícios exclusivos para distribuidores, como por exemplo, material de apoio e treinamentos especiais." title="Benefícios Exclusivos" />
             </div>
+            <AboutSection />
+
+            <TestimonialsSection />
+
+            <RegisterSection />
+
+            <FaqSection />
           </div>
         </div>
 
-        <AboutSection />
-
-        <TestimonialsSection />
-
-        <RegisterSection />
-
         <Footer />
-        
+
         <ScrollToTop />
       </div>
     </>

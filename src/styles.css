@@ -25,3 +25,7 @@ h2{
 h3{
   @apply text-xl;
 }
+
+.faq-title {
+  @apply font-bold text-pink-700 text-xl;
+}
