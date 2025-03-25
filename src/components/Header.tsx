@@ -17,10 +17,10 @@ export const Header = () => {
           <a href="#reg">CADASTRE-SE</a>
         </li>
         <li className="transition-transform hover:scale-105">
-          <a href="">PERGUNTAS FREQUENTES</a>
+          <a href="#faq">DÚVIDAS</a>
         </li>
         <li className="transition-transform hover:scale-105">
-          <a href="">CONTATO</a>
+          <a href="#faq">CONTATO</a>
         </li>
       </ul>
       <div className="lg:hidden flex flex-1 justify-end items-center">

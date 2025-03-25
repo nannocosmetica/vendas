@@ -7,7 +7,7 @@ export const WelcomeSection = () => {
         <h4 className="uppercase text-center md:text-left mb-4 md:mb-0">
           Produtos exclusivos para <b className="text-pink-700">profissionais</b>.
         </h4>
-        <p className="text-2xl md:text-6xl font-bold text-center md:text-left leading-tight">Já pensou em distribuir uma marca consolidada e completa?</p>
+        <p className="text-2xl md:text-6xl font-bold text-center md:text-left leading-tight">Já pensou em ter uma renda de <b>10 mil reais</b> distribuindo cosméticos profissionais?</p>
         <div className="bg-pink-700 h-1 rounded-full my-8 md:w-6/12"></div>
         <p className="text-justify mb-4">Há mais de 20 anos no mercado brasileiro, nossa missão é fornecer produtos de qualidade com alta rentabilidade.</p>
         <div className="flex w-full justify-center">
