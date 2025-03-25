@@ -19,9 +19,6 @@ export const Header = () => {
         <li className="transition-transform hover:scale-105">
           <a href="#faq">DÚVIDAS</a>
         </li>
-        <li className="transition-transform hover:scale-105">
-          <a href="#faq">CONTATO</a>
-        </li>
       </ul>
       <div className="lg:hidden flex flex-1 justify-end items-center">
         <a href="#">

@@ -4,15 +4,23 @@ interface IBubbleProps {
   icon: React.ReactNode | string;
   title: string;
   text: string;
-  url: string;
+  url?: string;
   className?: string;
 }
 
 export const Bubble = ({ icon, text, title, className, url }: IBubbleProps) => {
+  const Wrapper = url ? "a" : "div";
+
+  const wrapperProps = url
+    ? { href: url, target: "_blank", rel: "noreferrer" }
+    : {};
+
   return (
-    <a href={url} target="_blank" rel="noreferrer"
+    <Wrapper
+      {...wrapperProps}
       className={clsx(
-        "bg-white flex items-center rounded-2xl p-8 drop-shadow-[4px_4px_10px_rgba(0,0,0,0.4)] flex-1 hover:scale-105 transition-transform",
+        "bg-white flex items-center rounded-2xl p-8 drop-shadow-[4px_4px_10px_rgba(0,0,0,0.4)] flex-1",
+        url && "hover:scale-105 transition-transform",
         className
       )}
     >
@@ -31,6 +39,6 @@ export const Bubble = ({ icon, text, title, className, url }: IBubbleProps) => {
         <div className="font-bold">{title}</div>
         <div className="text-sm">{text}</div>
       </div>
-    </a>
+    </Wrapper>
   );
 };
