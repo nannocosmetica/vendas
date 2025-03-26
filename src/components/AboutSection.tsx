@@ -1,8 +1,8 @@
 export const AboutSection = () => {
   return (
     <>
-      <section className="flex flex-col items-center justify-center mb-38">
-        <h2 className="uppercase px-4 mt-20" id="about">
+      <section className="flex flex-col items-center justify-center mb-38" id="about">
+        <h2 className="uppercase px-4 mt-20">
           Sobre a <span className="text-pink-700">Nanno</span>
         </h2>
         <div className="md:w-8/12 text-center mb-20 px-4">

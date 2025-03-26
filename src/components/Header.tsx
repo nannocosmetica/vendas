@@ -27,7 +27,7 @@ export const Header = () => {
       </div>
       <ul
         className={`w-full lg:flex flex-col lg:flex-row gap-4 lg:gap-8 transition-all duration-300 overflow-hidden justify-end ${
-          menuOpen ? "h-auto py-4 bg-neutral-100 rounded-lg px-4" : "h-0"
+          menuOpen ? "h-auto py-4 bg-neutral-100 rounded-lg px-4 space-y-4" : "h-0 space-y-0"
         } lg:h-auto lg:py-0 lg:bg-transparent lg:rounded-none lg:px-0`}
       >
         <li className="transition-transform hover:scale-105 whitespace-nowrap">
@@ -35,6 +35,9 @@ export const Header = () => {
         </li>
         <li className="transition-transform hover:scale-105 whitespace-nowrap">
           <a href="#testimonials" onClick={handleLinkClick}>DEPOIMENTOS</a>
+        </li>
+        <li className="transition-transform hover:scale-105 whitespace-nowrap">
+          <a href="#benefits" onClick={handleLinkClick}>BENEFÍCIOS</a>
         </li>
         <li className="transition-transform hover:scale-105 whitespace-nowrap">
           <a href="#reg" onClick={handleLinkClick}>CADASTRE-SE</a>

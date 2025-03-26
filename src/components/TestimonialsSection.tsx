@@ -2,8 +2,8 @@ import { Bubble } from "./Bubble";
 
 export const TestimonialsSection = () => {
   return (
-    <section className="w-full bg-neutral-200">
-      <h2 className="uppercase px-4 mt-20 w-full text-center mb-4" id="about">
+    <section className="w-full bg-neutral-200" id="testimonials">
+      <h2 className="uppercase px-4 mt-20 w-full text-center mb-4">
           O que nossos <span className="text-pink-700">Clientes</span> dizem
       </h2>
       <div className="w-full text-center"><span className="text-neutral-500 text-lg">Depoimentos reais, clique e comprove!</span></div>

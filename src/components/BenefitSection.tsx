@@ -1,6 +1,6 @@
 export const BenefitSection = () => {
   return (
-    <div className="flex flex-col w-full justify-center items-center">
+    <div className="flex flex-col w-full justify-center items-center" id="benefits">
       <p className="w-10/12 lg:w-6/12 text-center text-2xl italic mt-16 lg:mt-32">
         Revender Nanno é a oportunidade perfeita para quem busca <b>independência financeira</b> com produtos de altíssima qualidade e grande aceitação no mercado. Com uma margem de lucro que pode chegar de 100% a 120%, nossos revendedores têm uma excelente oportunidade de crescimento.
       </p>
