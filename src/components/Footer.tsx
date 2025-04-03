@@ -18,6 +18,7 @@ export const Footer = () => {
             className="hover:text-blue-500 hover:scale-110 transition-all"
             target="_blank"
             rel="noopener noreferrer"
+             aria-label="Facebook Nanno Cosmética"
           >
             <FaFacebook size={22} />
           </a>
@@ -26,6 +27,7 @@ export const Footer = () => {
             className="hover:text-blue-500 hover:scale-110 transition-all"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Instagram Nanno Cosmética"
           >
             <FaInstagram size={24} />
           </a>
@@ -34,6 +36,7 @@ export const Footer = () => {
             className="hover:text-blue-500 hover:scale-110 transition-all"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Youtube Nanno Cosmética"
           >
             <FaYoutube size={24} />
           </a>

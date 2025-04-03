@@ -20,7 +20,7 @@ export const Header = () => {
           />
         </a>
         <div className="lg:hidden flex justify-end items-center">
-          <button onClick={() => setMenuOpen(!menuOpen)}>
+          <button onClick={() => setMenuOpen(!menuOpen)} id="menu-button" aria-label="Menu de Navegação" className="p-2 rounded-lg bg-neutral-100 hover:bg-neutral-200 transition duration-300">
             <MobileMenu />
           </button>
         </div>

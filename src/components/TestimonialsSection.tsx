@@ -6,7 +6,7 @@ export const TestimonialsSection = () => {
       <h2 className="uppercase px-4 mt-20 w-full text-center mb-4">
           O que nossos <span className="text-pink-700">Clientes</span> dizem
       </h2>
-      <div className="w-full text-center"><span className="text-neutral-500 text-lg">Depoimentos reais, clique e comprove!</span></div>
+      <div className="w-full text-center"><span className="text-black text-lg">Depoimentos reais, clique e comprove!</span></div>
       <div id="testimonials" className="bg-neutral-200 grid grid-cols-1 lg:grid-cols-2 gap-10 px-4 md:px-24 py-20">
         <Bubble icon="/feedback/giovanna.jpg" text="Como distribuidora afirmo, melhor marca que já trabalhei, suporte incrível." title="Giovanna Nunes" url="https://www.facebook.com/nannocosmetica/posts/1074411094727685"/>
         <Bubble icon="/feedback/marli.jpg" text="Super recomendo!!!" title="Marli Kelly" url="https://www.facebook.com/nannocosmetica/posts/pfbid0384jzSAakAxS6TnjK1T6FFaXseakzzLfvC3fdWG6RRYrpVnJh4MnVtxCbH6iBAkYKl" />
