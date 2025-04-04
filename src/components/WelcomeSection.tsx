@@ -11,7 +11,7 @@ export const WelcomeSection = () => {
         <div className="bg-pink-700 h-1 rounded-full my-8 md:w-6/12"></div>
         <p className="text-justify mb-4">Há mais de 20 anos no mercado brasileiro, nossa missão é fornecer produtos de qualidade com alta rentabilidade.</p>
         <div className="flex w-full justify-center">
-          <img src="/box8.webp" alt="Kit Box 8 Nanno" className="w-8/12" />
+          <img src="/box8.webp" loading="lazy" alt="Kit Box 8 Nanno" className="w-8/12" />
         </div>
         <a href="#reg" className="flex flex-nowrap my-10 lg:w-6/12 items-center font-bold border-2 border-pink-700 text-pink-700 rounded-full px-8 py-2 hover:bg-pink-700 hover:text-white transition-colors">
           <div><span className="whitespace-nowrap">Revender Nanno</span></div>
@@ -22,7 +22,7 @@ export const WelcomeSection = () => {
       </div>
 
       <div className="flex-1">
-        <img src="/hairmodel3.webp" className="max-w-full h-auto object-contain z-10" alt="Lindos Cabelos Ruivos" />
+        <img src="/hairmodel3.webp" loading="lazy" className="max-w-full h-auto object-contain z-10" alt="Lindos Cabelos Ruivos" />
       </div>
     </section>
   );
