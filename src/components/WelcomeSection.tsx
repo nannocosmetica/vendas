@@ -26,7 +26,7 @@ export const WelcomeSection = () => {
       </div>
 
       <div className="flex-1">       
-          <img src="/hairmodel3.webp" alt="Lindos Cabelos Ruivos" className="max-w-full float-end w-full h-auto object-contain z-10" />
+          <img src="/hairmodel3.webp" alt="Lindos Cabelos Ruivos" className="max-w-full float-end w-full h-auto object-contain z-10" rel="preload" />
       </div>
     </section>
   );
