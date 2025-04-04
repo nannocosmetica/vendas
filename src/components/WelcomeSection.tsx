@@ -28,7 +28,7 @@ export const WelcomeSection = () => {
       <div className="flex-1">
         <picture>
           <source media="(min-width: 768px)" srcSet="/hairmodel3.webp" type="image/webp" />
-          <img src="/hairmodel3mobile.webp" alt="Lindos Cabelos Ruivos" className="max-w-full h-auto object-contain z-10" />
+          <img src="/hairmodel3mobile.webp" alt="Lindos Cabelos Ruivos" className="max-w-full float-end w-full h-auto object-contain z-10" />
         </picture>
       </div>
     </section>
